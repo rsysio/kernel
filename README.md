@@ -55,6 +55,11 @@ sudo make INSTALL_MOD_STRIP=1 modules_install
 
 copy `*.ko` and other files to `/lib/modules/4.20.0/`
 
+### install headers
+```
+sudo make headers_install
+```
+
 ### install kernel
 ```
 sudo make install
@@ -69,9 +74,3 @@ sh ./arch/x86/boot/install.sh 4.20.0 arch/x86/boot/bzImage \
 - copy `arch/x86/boot/bzImage` to `/boot/vmlinuz-4.20.0`
 - copy `System.map` to `/boot/System.map-4.20.0`
 - run `update-initramfs` and `update-grub2`
-
-
-### install headers
-```
-sudo make headers_install
-```
