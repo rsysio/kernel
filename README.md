@@ -50,6 +50,8 @@ My changes:
 ### build
 ```
 make -j 4
+
+make -j4 deb-pkg LOCALVERSION=-rsys.io KDEB_PKGVERSION=$(make kernelversion)-1
 ```
 
 ### install modules
