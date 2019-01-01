@@ -58,6 +58,8 @@ copy `*.ko` and other files to `/lib/modules/4.20.0/`
 ### install headers
 ```
 sudo make headers_install
+
+sudo make headers_install ARCH=x86_64 INSTALL_HDR_PATH=/usr
 ```
 
 ### install kernel
@@ -74,3 +76,9 @@ sh ./arch/x86/boot/install.sh 4.20.0 arch/x86/boot/bzImage \
 - copy `arch/x86/boot/bzImage` to `/boot/vmlinuz-4.20.0`
 - copy `System.map` to `/boot/System.map-4.20.0`
 - run `update-initramfs` and `update-grub2`
+
+### create deb packages
+```
+make deb-pkg
+```
+
