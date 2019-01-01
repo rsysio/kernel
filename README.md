@@ -2,7 +2,10 @@
 
 ## Docs
 [Guide](https://kernelnewbies.org/KernelBuild)
+
 [Guide 2](https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html)
+
+[debian](https://debian-handbook.info/browse/stable/sect.kernel-compilation.html)
 
 ## Build
 
@@ -81,4 +84,3 @@ sh ./arch/x86/boot/install.sh 4.20.0 arch/x86/boot/bzImage \
 ```
 make deb-pkg
 ```
-
