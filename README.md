@@ -7,6 +7,8 @@
 
 [debian](https://debian-handbook.info/browse/stable/sect.kernel-compilation.html)
 
+[debian 2](https://kernel-team.pages.debian.net/kernel-handbook/ch-common-tasks.html#s-common-building)
+
 ## Build
 
 ### install build tools
